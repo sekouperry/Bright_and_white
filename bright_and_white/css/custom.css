@@ -1,0 +1,339 @@
+/* Custom H5BP CSS for JayBox */
+
+/* Overrides */
+header, #header, nav, #navigation, #name-and-slogan, #site-name {
+  background: transparent;
+  border: none;
+}
+
+#name-and-slogan {
+  margin-left: 120px;
+}
+
+.with-navigation #content, .with-navigation .sidebar {
+  margin-top: 0px;
+}
+
+.maintenance-page #logo {
+  top: 0px;
+}
+
+/* Generic customisation */
+body {
+  font-family: "Imprima", sans-serif;
+  background-color: #ebebeb;
+  overflow: scroll;
+  color: #262626;
+  font-size: 90%;
+}
+
+h1.title,h2.title {
+  font-family: "Jockey One", sans-serif;
+  color: #4b4b4b;
+}
+
+h1.title {
+  font-size: 35pt;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: #ef037f;
+}
+
+a:hover,
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+#site-name {
+  position: relative;
+  left: 40px;
+  padding-bottom: 5px;
+  font-size: 42pt;
+}
+
+#logo {
+  float: left;
+}
+
+/* Top Menu Bar */
+header#header {
+  height: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: "Impact", "Charcoal", sans-serif;
+  font-size: 30pt;
+  margin: 0em 0em 0.5em 0em;
+}
+
+#nav-wrapper {
+  background: transparent url('images/header-shadow.png') no-repeat center bottom;
+  height: 82px;
+  max-width: 960px;
+}
+
+/* Main Menu */
+#navigation ul#primary a {
+  color: #27aece;
+  font-weight: normal;
+}
+
+#navigation ul#primary a:hover {
+  color: #f8f8f8;
+}
+
+#navigation.with-primary.with-secondary,
+#navigation.with-primary {
+  height: 69px;
+  background: transparent url('images/header.png') no-repeat;
+  font-family: 'Jockey One', sans-serif;
+}
+
+#navigation ul#primary {
+  font-size: 19pt;
+  line-height: 54px;
+  float: left;
+}
+
+#navigation ul#primary li {
+  padding-right: 0.5em;
+}
+
+#navigation ul#primary li.first {
+  padding-left: 1em;
+}
+
+#navigation ul#secondary {
+  float: right;
+  padding-top: 5px;
+  line-height: 54px;
+  width: 90px;
+}
+
+#navigation ul#secondary li {
+  padding: 3px 0px 3px 0px;
+  line-height: 100%;
+}
+
+#navigation ul#secondary a {
+  font-size: 16px;
+  color: #fdd716;
+  font-weight: normal;
+}
+
+#navigation ul#secondary a:hover {
+  color: #f8f8f8;
+}
+
+/* Site slogan */
+#site-slogan h3 {
+  font-size: 20pt;
+  padding-left: 2em;
+}
+
+/* Sidebar */
+#sidebar-first, #sidebar-second {
+  border: none;
+  background: transparent;
+}
+
+#sidebar-first h2,
+#sidebar-second h2
+{
+  text-align: center;
+}
+
+/* Breadcrumb theming */
+.breadcrumb {
+  font-size: 12pt;
+  color: #262626;
+  padding-top: 5px;
+}
+
+.breadcrumb a {
+  color: #ef037f;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Content tabs */
+ul.tabs.primary {
+  margin-top: 0px;
+  height: 37px;
+  font-family: "Jockey One", sans-serif;
+  font-size: 16pt;
+  border-bottom: none;
+}
+
+ul.tabs.primary li {
+  behavior: url(/sites/all/themes/bright_and_white/css/PIE.htc);
+  display: inline-block;
+  height: 37px;
+  border-radius: 7px 7px 0px 0px;
+  border: 1px solid #aaaaaa;
+  border-bottom: none;
+  background: #c9c9c9 url('images/tab-overlay.png') repeat-x center bottom;
+}
+
+ul.tabs.primary li a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+ul.tabs.primary li span.active {
+  line-height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+ul.tabs.primary li a:link,
+ul.tabs.primary li a:visited {
+  color: #262626;
+  margin-right: 0;
+  line-height: 35px;
+  background-color: transparent;
+  border: none;
+}
+
+ul.tabs.primary li a:hover,
+ul.tabs.primary li a:active {
+  color: #ef037f;
+}
+
+ul.tabs.primary li.active {
+  height: 38px;
+  background: #f8f8f8;
+  border: 1px solid #aaaaaa;
+  border-bottom: none;
+}
+
+ul.tabs.primary {
+  background-color: transparent;
+  background-image: url(images/content-shadow.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+ul.tabs.primary li.first {
+  border-left: none;
+}
+
+/* Main Page */
+
+#main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#content {
+  border-radius: 0px 7px 0px 0px;
+  border: 1px solid #aaaaaa;
+  padding: 15px;
+  background-color: #f8f8f8;
+  behavior: url(/sites/all/themes/bright_and_white/css/PIE.htc);
+}
+
+#main {
+  padding-bottom: 69px;
+}
+
+div.messages {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+div.messages a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+div.error {
+  background: #ff5454;
+  border: #000000;
+}
+
+fieldset * {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+fieldset div {
+  margin-left: 0px;
+}
+
+fieldset legend, fieldset legend * {
+  font-size: 14pt;
+  padding-left: 5px;
+  margin-left: 0px;
+}
+
+/* Table/View CSS */
+table {
+  float: left;
+  font-size: 13pt;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+table th {
+  padding-bottom: 7px;
+  font-size: 140%;
+  border-bottom: 3px solid #aaaaaa;
+}
+
+tr.even td, tr.odd td {
+  padding: 5px 5px;
+}
+
+table td a:link,
+table td a:visited {
+  color: black;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+
+#content-area .content .field {
+  padding: 0.3em 0px 0.3em 0px;
+  font-size: 14pt;
+}
+
+#edit-title {
+  font-size: 90%;
+}
+
+td.views-empty p {
+  padding-top: 5px;
+  text-align: center;
+}
+
+/* Footer */
+footer#footer, div#footer {
+  color: #f8f8f8;
+  border-radius: 0px 0px 7px 7px;
+  max-width: 960px;
+  height: 69px;
+  background: #262626 url(images/header.png) no-repeat;
+  border: 1px solid #aaaaaa;
+  border-top: none;
+  behavior: url(/sites/all/themes/bright_and_white/css/PIE.htc);
+}
+
+footer#footer div, div#footer div {
+  display: block;
+  line-height: 47px;
+  text-align: center;
+}
